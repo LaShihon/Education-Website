@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <meta name="title" content="Softech" />
+    <meta
+      name="description"
+      content="This is an education website by LaShihon"
+    />
+    <link rel="shortcut icon" href="/Tablogo.png" type="image/svg+xml" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="top">
+    <header class="header" data-header>
+      <div class="container">
+        <a href="/index.html" class="logo">
+          <img
+            src="/assets/img/logo.png"
+            width="162"
+            height="50"
+            alt="softech logo"
+          />
+        </a>
+        <nav class="navbar" data-navbar>
+          <div class="wrapper">
+            <a href="/index.html" class="logo">
+              <img
+                src="/assets/img/logo.png"
+                width="162"
+                height="50"
+                alt="softech logo"
+              />
+            </a>
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="/index.html" class="navbar-link" data-nav-link>Home</a>
+            </li>
+            <li class="navbar-item">
+              <a
+                href="/assets/aboutpage/about.html"
+                class="navbar-link"
+                data-nav-link
+                >About</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a
+                href="/assets/programs/program.html"
+                class="navbar-link"
+                data-nav-link
+                >Programs</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+    <!-- 
+        - #ABOUT
+      -->
+
+    <section class="section about" id="about" aria-label="about">
+      <div class="container">
+        <figure class="about-banner">
+          <div class="img-holder" style="--width: 520; --height: 370">
+            <img
+              src="/assets/img/aboutus.jpg"
+              width="520"
+              height="370"
+              loading="lazy"
+              alt="about banner"
+              class="img-cover"
+            />
+          </div>
+          <img
+            src="/assets/img/about-shape-3.png"
+            width="722"
+            height="528"
+            loading="lazy"
+            alt=""
+            class="shape about-shape-3"
+          />
+        </figure>
+
+        <div class="about-content">
+          <p class="section-subtitle">About Us</p>
+
+          <h2 class="h2 section-title">
+            Over -- Years in <span class="span">Skill Development</span> for
+            students who seek knowledge
+          </h2>
+
+          <p class="section-text">
+            Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex
+            tempor incididunt labore dolore magna aliquaenim ad minim.
+          </p>
+
+          <ul class="about-list">
+            <li class="about-item">
+              <ion-icon
+                name="checkmark-done-outline"
+                aria-hidden="true"
+              ></ion-icon>
+
+              <span class="span">Expert Trainers</span>
+            </li>
+
+            <li class="about-item">
+              <ion-icon
+                name="checkmark-done-outline"
+                aria-hidden="true"
+              ></ion-icon>
+
+              <span class="span">Theoretical and Practical learning</span>
+            </li>
+
+            <li class="about-item">
+              <ion-icon
+                name="checkmark-done-outline"
+                aria-hidden="true"
+              ></ion-icon>
+
+              <span class="span">Lorem ipsum</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-label="contact">
+      <div class="container">
+        <h2 class="h2 section-title">Get in Touch</h2>
+        <p class="section-text">We'd love to hear from you!</p>
+
+        <div class="contact-form">
+          <form>
+            <div class="form-group">
+              <label for="name"
+                >Name <span class="required-star">*</span></label
+              >
+              <input type="text" id="name" name="user_name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="mail"
+                >Email <span class="required-star">*</span></label
+              >
+              <input type="email" id="mail" name="user_email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="msg">Message</label>
+              <textarea
+                rows="4"
+                cols="50"
+                id="msg"
+                name="user_message"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn has-before">
+              <span class="span">Send Message</span>
+              <ion-icon
+                name="arrow-forward-outline"
+                aria-hidden="true"
+              ></ion-icon>
+            </button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <h3 class="h3">Contact Information</h3>
+          <ul>
+            <li>
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+              <address>Umsohsun, Shillong - 793001</address>
+            </li>
+
+            <li>
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+              <a href="tel:+011234567890" class="footer-link"
+                >+01 123 4567 890</a
+              >
+            </li>
+
+            <li>
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+              <a href="#" class="footer-link">info@email.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer
+      class="footer"
+      style="background-image: url('/assets/img/footer-bg.png')"
+    >
+      <div class="footer-top section">
+        <div class="container grid-list">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img
+                src="/assets/img/logo.png"
+                width="162"
+                height="50"
+                alt="softech logo"
+              />
+            </a>
+            <p class="footer-brand-text">
+              Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor
+              incidid unt labore dolore.
+            </p>
+            <div class="wrapper">
+              <span class="span">Add:</span>
+              <address class="address">Umsohsun,Shillong - 793001</address>
+            </div>
+            <div class="wrapper">
+              <span class="span">Call:</span>
+              <a href="tel:+011234567890" class="footer-link"
+                >+91 12345 67891</a
+              >
+            </div>
+            <div class="wrapper">
+              <span class="span">Email:</span>
+              <a href="#" class="footer-link">info@gmail.com</a>
+            </div>
+          </div>
+          <ul class="footer-list">
+            <li><p class="footer-list-title">Online Platform</p></li>
+            <li><a href="#" class="footer-link">About</a></li>
+            <li><a href="#" class="footer-link">Courses</a></li>
+            <li><a href="#" class="footer-link">Instructor</a></li>
+            <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+            <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+            <li><a href="#" class="footer-link">Lorem ipsum</a></li>
+          </ul>
+          <ul class="footer-list">
+            <li><p class="footer-list-title">Links</p></li>
+            <li><a href="#" class="footer-link">Contact Us</a></li>
+            <li><a href="#" class="footer-link">Gallery</a></li>
+            <li><a href="#" class="footer-link">News & Articles</a></li>
+            <li><a href="#" class="footer-link">FAQ's</a></li>
+            <li><a href="#" class="footer-link">Sign In/Registration</a></li>
+            <li><a href="#" class="footer-link">Coming Soon</a></li>
+          </ul>
+          <div class="footer-list">
+            <p class="footer-list-title">Contacts</p>
+            <p class="footer-list-text">
+              Enter your email address to register to our newsletter
+              subscription
+            </p>
+            <form action="" class="newsletter-form">
+              <input
+                type="email"
+                name="email_address"
+                placeholder="Your email"
+                required
+                class="input-field"
+              />
+              <button type="submit" class="btn has-before">
+                <span class="span">Subscribe</span>
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </button>
+            </form>
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link"
+                  ><ion-icon name="logo-facebook"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="social-link"
+                  ><ion-icon name="logo-linkedin"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="social-link"
+                  ><ion-icon name="logo-instagram"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="social-link"
+                  ><ion-icon name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="social-link"
+                  ><ion-icon name="logo-youtube"></ion-icon
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            Copyright 2024 All Rights Reserved by
+            <a href="https://github.com/LaShihon" class="copyright-link"
+              >LaShihon</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
